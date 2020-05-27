@@ -1,0 +1,28 @@
+{
+  "type": "cosmos-sdk/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "dither/CreateChannel",
+        "value": {
+          "creator": "cosmos18cd5t4msvp2lpuvh99rwglrmjrrw9qx5h3f3gz",
+          "name": "foo"
+        }
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "A5lfll1RiMbiBRmCkuP5PjehJez6Lymko3/nohbZCYGs"
+        },
+        "signature": "zM3yo45CcrVTRIKiWTPtvv+1fb4PunRorEc+NW20Kjg82hZ2TySgLZNXOtqNsOOHKlElBiJRZtAeKkVPSapCFg=="
+      }
+    ],
+    "memo": ""
+  }
+}
